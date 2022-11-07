@@ -1,0 +1,69 @@
+.head {
+  /* border: 1px solid black; */
+  width: 100%;
+  height: 20%;
+}
+.body {
+  height: 80%;
+  /* border: 1px solid black; */
+  background-color: hsl(180, 52%, 96%);
+}
+#header_image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.item_body {
+  /* border: 1px solid black; */
+  font-family: "League Spartan";
+  height: 90%;
+  width: 75%;
+  position: absolute;
+  top: 12%;
+  left: 13%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: scroll;
+}
+.item_body::-webkit-scrollbar {
+  display: none;
+}
+#filter {
+  border-radius: 3px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.item {
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+}
+.comDetail {
+  display: flex;
+  flex-direction: row;
+}
+.proDetail {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.jobDetail {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-left: 5px;
+}
+.filterItem {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+#clearItem{
+  margin-right: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
